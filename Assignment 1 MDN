@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Ashley</title>
+</head>
+<style>
+    .header {
+        font-size: 36px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+    .sub-header {
+        font-size: 24px;
+        font-weight: bold;
+        color: tan;
+        text-align: center;
+    }
+    .sub-sub-header {
+        font-size: 18px;
+        font-weight: bold;
+        font-style: italic;
+        color: red;
+        text-align: center;
+    }
+    regular-text {
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+</style>
+<div class = "header">Ashley </div>
+<div class = "header">Accessibility</div>
+<div class = "header">Presentation</div>
+    <p class = "sub-header">I think Ashley did an</p>
+    <p class = "sub-header">amazing job teaching accessibility!</p>
+</div>
+<body>
+    <p class ="sub-sub-header">I am so grateful that</p>
+    <p class = "sub-sub-header">she likes to come</p>
+    <p class = "sub-sub-header"> and teach to classes</p>
+    <p class = "regular-text">Accessibility is a win-win</p>
+    <p class = "regular-text"> for everyone</p>
+</body>
+</html>
