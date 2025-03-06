@@ -1,0 +1,161 @@
+PART ONE
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Playing with CSS</title>
+<style>
+    h1 {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 24px;
+    }
+    p {
+        font-size: 18px;
+    }
+    em {
+        font-style: italic;
+        font-weight: bold;
+        font-size:18px;
+    }
+    li {
+        font-size: 18px;
+        font-weight: normal; 
+        color: red;
+    }
+    strong {
+        font-size: 18px;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+<h1>I am a level one heading</h1>
+<h2>I am a level two heading</h2>
+<p>
+A paragraph with a
+<span>span element</span> and also a
+<a href="https://example.com">link</a>.
+</p>
+<p>
+A paragraph with an <em>emphasized</em> element.
+</p>
+<ul>
+<li>Item <span>one</span></li>
+<li>Item <strong>two</strong></li>
+<li>Item <em>three</em></li>
+</ul>
+</body>
+</html>
+
+PART TWO
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Playing with CSS</title>
+<style>
+    h1 {
+        font-weight: bold;
+        font-size: 24px;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    span {
+        background-color: gray;
+        padding: 2px;
+    }
+    strong {
+        font-weight: bold;
+        font-style: italic;
+        font-size: 16px;
+    }
+    em {
+        font-weight: normal;
+        font-size: 16px;
+    }
+</style>
+</head>
+<body>
+<h1>I am a level one heading</h1>
+<h2>I am a level two heading</h2>
+<p>
+A paragraph with a
+<span>span element</span> and also a
+<a href="https://example.com">link</a>.
+</p>
+<p>
+A paragraph with an <em>emphasized</em> element.
+</p>
+<ul>
+<li>Item <span>one</span></li>
+<li>Item <strong>two</strong></li>
+<li>Item <em>three</em></li>
+</ul>
+</body>
+</html>
+
+PART THREE
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Playing with CSS</title>
+<style>
+    h1 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 32px;
+    }
+    p {
+        font-weight: normal;
+        font-size: 16px;
+        text-align: center;
+    }
+    span {
+        font-weight: regular;
+        font-size: 16px;
+        background-color: gray;
+        padding: 2px;
+    }
+    li {
+        text-align: center;
+    }
+    em {
+        font-weight: regular;
+        font-size: 16px;
+        font-style: italic;
+    }
+    strong {
+        font-weight: bold;
+        font-size: 16px;
+        font-style: italic;
+    }
+</style>
+</head>
+<body>
+<h1>I am a level one heading</h1>
+<h2>I am a level two heading</h2>
+<p>
+A paragraph with a
+<span>span element</span> and also a
+<a href="https://example.com">link</a>.
+</p>
+<p>
+A paragraph with an <em>emphasized</em> element.
+</p>
+<ul>
+<li>Item <span>one</span></li>
+<li>Item <strong>two</strong></li>
+<li>Item <em>three</em></li>
+</ul>
+</body>
+</html>
