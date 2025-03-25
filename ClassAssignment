@@ -38,6 +38,29 @@
     </style>
 </head>
 <body>
-  
+    <header>
+        <nav>
+            <menu>
+                <li>Home</li>
+                <li>Page 2</li>
+                <li>Page 3</li>
+            </menu>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>This will be header 1</h1>
+        <img scr="../assets/images/Baseball_(crop).jpg" n alt = Baseball/>
+
+        <div class = "flex container">
+            <p>I put some text</p>
+            <p>I put some text</p>
+            <p>I put some text</p>
+        </div>
+    </main>
+
+    <footer>
+        I am adding stuff here so I can see a footer
+    </footer>
 </body>
 </html>
