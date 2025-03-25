@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head> 
+    <meta charset = "UTF-8">
+    <meta name  = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <title> Flexbox</title>
+    <style>
+        body {
+            margin: 2rem;
+            display: block;
+        }
+        menu {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+        header {
+            padding: 2rem;
+            background-color:rgb(249, 255, 178);
+        }
+        footer {
+            padding: 2rem;
+            margin: 0;
+            background-color: #ccc;
+        }
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        p {
+            padding: 1rem;
+            border: 1px solid black;
+        }
+        main{
+            background-color: rgb(224, 255, 240);
+        }
+    </style>
+</head>
+<body>
+  
+</body>
+</html>
