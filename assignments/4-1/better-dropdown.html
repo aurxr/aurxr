@@ -1,0 +1,60 @@
+<!--DISCLOSURE: I used code from mainly websites-->
+<!--Code below opens up and down-->
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width initial-scale =1.0">
+    <title>Collapsable</title>
+    <style>
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: #008000;
+            padding: 5px;
+        }
+        .dropdown-content a{
+            display: block;
+            color: #FFF;
+            padding: 5px;
+        }
+        .dropdown-content a:hover {
+            background-color: #DDD;
+            
+        }
+    </style>
+ <script>
+    function toggleMenu() {
+        var menu = document.getElementById("menu");
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    /*?THIS SECTION IS FROM WEBSITE if the button is pressed, a different arrow will be displayed
+    and if not, the standard arrow will stay and const refers to it being a constant reference */
+
+        const button = document.getElementById('menubutton')
+        button.classList.toggle('open')
+        if (button.classList.contains('open')) {
+            button.innerHTML = "Menu &#9652"
+        } else {
+            button.innerHTML = "Menu &#9662"
+        }
+    }
+</script>
+</head>
+<body>
+    <nav>
+        <button id = 'menubutton' button onclick = "toggleMenu()"> Menu &#9662</button>
+        <div class = "dropdown" id = "menu">
+            <div class = "dropdown-content">
+                <a href ="#">Home</a>
+                <a href = "#">Page 2</a>
+                <a href = "#">Page 3</a>
+                <a href = "#">Page 4</a>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>

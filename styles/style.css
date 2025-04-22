@@ -1,0 +1,115 @@
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .dropdown {
+    display: inline-block;
+    position: fixed;
+    padding: .625rem;
+    background-color: #696969;
+  }
+  .dropdown-content a{
+    display: inline-block;
+    padding: 1rem;
+    color: #Ffd700;
+    font-size: 1rem;
+  }
+  .dropdown-content a:hover {
+    display: inline-block;
+    background-color: #808080;
+    flex-wrap: nowrap;
+  }
+  nav {
+    position: fixed;
+    width: 100%;
+    background-color: #696969;
+  }
+  img {
+    display: none;
+  }
+  body {
+    margin: 0rem;
+    padding: 0rem;
+    height: auto;
+  }
+  article {
+    margin-left: 0rem;
+    margin-top: 11rem;
+    padding-right: 2rem;
+  }
+  h1 {
+    text-align: center;
+    background-color: #8b008b;
+    margin: 0;
+    border: 0.35rem solid #000000;
+    font-size: 3rem;
+    font-family: 'Cambria', serif;
+    color: #F5f5f5;
+  }
+  h2 {
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: 'Cambria', serif;
+    color: #000000;
+  }
+  p {
+    padding: .25rem;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: 'Cambria', serif;
+    color: #000000;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #8b008b;
+    border: .25rem solid #000000;
+    font-size: 1.25rem;
+    font-family: 'Cambia', serif;
+    color: #F5f5f5;
+  }
+  @media (min-width: 720px) {
+    * {
+      margin: 0rem;
+      padding: 0rem;
+    }
+    .dropdown {
+      display: block;
+    }
+    .dropdown-content a {
+      display: block;
+    }
+    .dropdown-content a:hover {
+      display: block;
+    }
+    .img-container {
+      display: block;
+    }
+    nav {
+      height: 100%;
+      width: 14rem;
+    }
+    img {
+      display: block;
+      position: fixed;
+      margin-left: 2rem;
+      margin-top: 2rem;
+      left: 84.5%;
+      bottom: 8%;
+      height: 8.5rem;
+      width: 8.5rem;
+    }
+    article {
+      margin-top: 0rem;
+      margin-left: 14.25rem;
+    }
+    h2 {
+      text-align: left;
+    }
+    p {
+      text-align: left;
+    }
+  }
