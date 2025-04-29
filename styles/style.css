@@ -5,7 +5,7 @@
   }
   .dropdown {
     display: inline-block;
-    position: fixed;
+    /* position: fixed; */
     padding: .625rem;
     background-color: #696969;
   }
@@ -21,7 +21,7 @@
     flex-wrap: nowrap;
   }
   nav {
-    position: fixed;
+    /* position: fixed; BAD FOR MOBILE! SENDS TO MIDDLE OF SCREEN */
     width: 100%;
     background-color: #696969;
   }
@@ -29,19 +29,23 @@
     display: none;
   }
   body {
-    margin: 0rem;
-    padding: 0rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    padding: 0;
     height: auto;
   }
   article {
-    margin-left: 0rem;
-    margin-top: 11rem;
-    padding-right: 2rem;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-right: 0;
   }
   h1 {
+    /* position: absolute; */
+    top: 0;
     text-align: center;
     background-color: #8b008b;
-    margin: 0;
+    margin-top: 0;
     border: 0.35rem solid #000000;
     font-size: 3rem;
     font-family: 'Cambria', serif;
@@ -60,6 +64,10 @@
     font-family: 'Cambria', serif;
     color: #000000;
   }
+  .highlight {
+    color: #FF0000;
+    font-weight:bold;
+  }
   footer {
     position: fixed;
     bottom: 0;
@@ -71,10 +79,10 @@
     font-family: 'Cambia', serif;
     color: #F5f5f5;
   }
-  @media (min-width: 720px) {
+  @media (min-width: 965px) {
     * {
-      margin: 0rem;
-      padding: 0rem;
+      margin: 0;
+      padding: 0;
     }
     .dropdown {
       display: block;
@@ -89,6 +97,7 @@
       display: block;
     }
     nav {
+      position: fixed;
       height: 100%;
       width: 14rem;
     }
@@ -97,12 +106,19 @@
       position: fixed;
       right: 1%;
       bottom: 6%;
-      height: 8.5rem;
-      width: 8.5rem;
+      height: 6.5rem;
+      width: 6.5rem;
+    }
+    body {
+      margin: 0;
+      margin-bottom: 2rem;
     }
     article {
-      margin-top: 0rem;
-      margin-left: 14.25rem;
+      margin-top: 0;
+      margin-left: 14.03rem;
+    }
+    h1{
+      margin: 0;
     }
     h2 {
       text-align: left;
