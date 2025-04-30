@@ -20,6 +20,15 @@
     background-color: #808080;
     flex-wrap: nowrap;
   }
+  .button {
+    padding: 1rem;
+    border: .35rem solid #000000;
+    background-color: #696969;
+    color: #Ffd700;
+  }
+  .button:hover {
+    background-color: #808080;
+  }
   nav {
     /* position: fixed; BAD FOR MOBILE! SENDS TO MIDDLE OF SCREEN */
     width: 100%;
@@ -39,6 +48,13 @@
     margin-top: 0;
     margin-bottom: 1rem;
     padding-right: 0;
+  }
+  ul {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #Ffd700;
   }
   h1 {
     /* position: absolute; */
