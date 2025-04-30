@@ -3,52 +3,65 @@
     margin: 0;
     box-sizing: border-box;
   }
+
   .dropdown {
     display: inline-block;
     /* position: fixed; */
     padding: .625rem;
     background-color: #696969;
   }
-  .dropdown-content a{
+
+  .dropdown-content a {
     display: inline-block;
     padding: 1rem;
     color: #Ffd700;
     font-size: 1rem;
   }
+
   .dropdown-content a:hover {
     display: inline-block;
     background-color: #808080;
     flex-wrap: nowrap;
   }
+
   .button {
-    padding: 1rem;
+    display: block;
+    margin-left: 2rem;
+    height: 10rem;
     border: .35rem solid #000000;
     background-color: #696969;
     color: #Ffd700;
+    font-size: 3rem;
   }
+
   .button:hover {
     background-color: #808080;
   }
+
   nav {
     /* position: fixed; BAD FOR MOBILE! SENDS TO MIDDLE OF SCREEN */
     width: 100%;
     background-color: #696969;
   }
+
   img {
     display: none;
   }
+
   body {
     margin-top: 0;
     margin-bottom: 2rem;
     padding: 0;
     height: auto;
   }
+
   article {
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 1rem;
     padding-right: 0;
   }
+
   ul {
     display: block;
     text-align: center;
@@ -56,6 +69,7 @@
     font-size: 2rem;
     color: #Ffd700;
   }
+
   h1 {
     /* position: absolute; */
     top: 0;
@@ -67,12 +81,14 @@
     font-family: 'Cambria', serif;
     color: #F5f5f5;
   }
+
   h2 {
     text-align: center;
     font-size: 1.75rem;
     font-family: 'Cambria', serif;
     color: #000000;
   }
+
   p {
     padding: .25rem;
     text-align: center;
@@ -80,10 +96,12 @@
     font-family: 'Cambria', serif;
     color: #000000;
   }
+
   .highlight {
     color: #FF0000;
-    font-weight:bold;
+    font-weight: bold;
   }
+
   footer {
     position: fixed;
     bottom: 0;
@@ -95,28 +113,35 @@
     font-family: 'Cambia', serif;
     color: #F5f5f5;
   }
+
   @media (min-width: 965px) {
     * {
       margin: 0;
       padding: 0;
     }
+
     .dropdown {
       display: block;
     }
+
     .dropdown-content a {
       display: block;
     }
+
     .dropdown-content a:hover {
       display: block;
     }
+
     .img-container {
       display: block;
     }
+
     nav {
       position: fixed;
       height: 100%;
       width: 14rem;
     }
+
     img {
       display: block;
       position: fixed;
@@ -125,20 +150,25 @@
       height: 6.5rem;
       width: 6.5rem;
     }
+
     body {
       margin: 0;
       margin-bottom: 2rem;
     }
+
     article {
       margin-top: 0;
       margin-left: 14.03rem;
     }
-    h1{
+
+    h1 {
       margin: 0;
     }
+
     h2 {
       text-align: left;
     }
+
     p {
       text-align: left;
     }
