@@ -1,5 +1,5 @@
 ## Hi there 👋
-are you updatting?
+are you updating?
 <!--
 **aurxr/aurxr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
